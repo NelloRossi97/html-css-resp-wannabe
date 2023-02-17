@@ -136,3 +136,19 @@ img {
         width: calc(100vw - 1rem);
     }
  }
+
+ @media screen and (max-width:480px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col, .row .col{
+        width: 100%;
+    }
+
+    .col:first-child{
+        margin-bottom: 4rem;
+    }
+}
