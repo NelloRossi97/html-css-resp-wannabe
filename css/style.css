@@ -152,3 +152,12 @@ img {
         margin-bottom: 4rem;
     }
 }
+
+@media screen and (min-width:769px) and (max-width:1160px){
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: calc(100vw - 1rem);
+    }
+}
