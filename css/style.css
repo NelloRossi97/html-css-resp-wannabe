@@ -127,3 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ @media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: calc(100vw - 1rem);
+    }
+ }
